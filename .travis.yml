@@ -1,0 +1,21 @@
+language: python
+python: 3.6
+
+branches:
+  only:
+  - master
+
+install:
+  - wget https://github.com/spf13/hugo/releases/download/v0.20.1/hugo_0.20.1_Linux-64bit.tar.gz
+  - tar -xvf hugo_0.20.1_Linux-64bit.tar.gz --strip-components 1
+  - mv hugo_0.20.1_linux_amd64 hugo
+  - pip install pygments
+
+script:
+  - ./hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: ${GH_TOKEN}
+  local_dir: public
