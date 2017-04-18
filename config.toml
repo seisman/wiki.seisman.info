@@ -1,6 +1,18 @@
 baseURL = "http://wiki.seisman.info/"
 languageCode = "zh-cn"
-title = "seiswiki"
+title = "SeisMan's Wiki"
 
 theme = "hugo-theme-wiki"
 hasCJKLanguage = true
+pygmentsCodeFences = true
+pygmentsStyle = 'tango'
+
+[params]
+    author = "seisman"
+    since = 2017
+    copyright = "Powered by [Hugo](https://gohugo.io)."
+
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/seisman/wiki"
+    weight = 2
