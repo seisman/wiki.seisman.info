@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+{{ partial "navbar" . }}
+{{ partial "breadcrumb" . }}
+
+{{.Content}}
+
+{{ range $section, $taxonomy := .Site.Sections }}
+<h4>{{ replace $section "-" " " }}</h4>
+<ul>
+  {{ range $taxonomy.Pages }}
+  <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ partial "footer" . }}

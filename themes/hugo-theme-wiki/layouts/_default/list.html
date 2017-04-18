@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+{{ partial "navbar" . }}
+{{ partial "breadcrumb" . }}
+
+<ul>
+{{ range .Pages }}
+<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+
+{{ partial "footer" . }}
