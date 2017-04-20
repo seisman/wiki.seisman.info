@@ -3,7 +3,7 @@
         &copy; {{ with .Site.Params.since }} {{ . }} - {{ end }}
         <span itemprop="copyrightYear"> {{ now.Year }}</span>
         <span class="with-love"><i class="fa fa-heart"></i></span>
-        <span class="author" itemprop="copyrightHolder">{{ .Site.Params.author }}</span>
+        <span class="author" itemprop="copyrightHolder">{{ .Site.Author.name }}</span>
         <div class="powered-by">{{ .Site.Params.copyright | markdownify }}</div>
     </div>
 </footer>

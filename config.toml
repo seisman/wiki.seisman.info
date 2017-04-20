@@ -7,8 +7,10 @@ hasCJKLanguage = true
 pygmentsCodeFences = true
 pygmentsStyle = 'tango'
 
+[author]
+    name = "seisman"
+
 [params]
-    author = "seisman"
     since = 2017
     copyright = "Powered by [Hugo](https://gohugo.io)."
 
