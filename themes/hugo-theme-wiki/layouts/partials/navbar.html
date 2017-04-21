@@ -12,10 +12,14 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right ">
+        {{ $FilePath := .File.Path }}
         {{ range .Site.Menus.main }}
+        {{ if eq .Identifier "edit_on_github" }}
+        <li> <a href="{{ .URL }}/{{ $FilePath }}" target="blank">{{ .Name }}</a></li>
+        {{ else }}
         <li class="nav-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
-        <li> <a href="https://github.com/seisman/wiki/blob/master/content/{{ .File.Path }}" target="blank">Edit on GitHub</a></li>
+        {{ end }}
       </ul>
     </div>
   </div>

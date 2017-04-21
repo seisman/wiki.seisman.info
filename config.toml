@@ -18,3 +18,9 @@ pygmentsStyle = 'tango'
     name = "GitHub"
     url = "https://github.com/seisman/wiki"
     weight = 2
+
+[[menu.main]]
+    name = "Edit on GitHub"
+    identifier = 'edit_on_github'
+    url = "https://github.com/seisman/wiki/blob/master/content"
+    weight = 3

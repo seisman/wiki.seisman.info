@@ -1,11 +1,7 @@
-{{ partial "header" . }}
-{{ partial "navbar" . }}
-{{ partial "breadcrumb" . }}
-
+{{ define "main" }}
 <ul>
-{{ range .Pages }}
-<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
+    {{ range .Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
 </ul>
-
-{{ partial "footer" . }}
+{{ end }}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-US" }}">
+{{ partial "header" . }}
+
+<body>
+    <div class="container">
+        {{ partial "navbar" . }}
+        {{ partial "breadcrumb" . }}
+
+        {{ block "main" . }}{{ end }}
+
+        {{ partial "footer" . }}
+    </div>
+</body>
+</html>
