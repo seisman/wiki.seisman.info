@@ -5,7 +5,13 @@
     {{ .Hugo.Generator }}
     {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>
+    {{ if .IsHome }}
+        {{ .Title | default .Site.Title }}
+    {{ else }}
+        {{ .Title }} | {{ .Site.Title }}
+    {{ end }}
+    </title>
 
     <!-- CSS -->
     <link href="https://cdn.bootcss.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet">
