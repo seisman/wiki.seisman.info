@@ -32,3 +32,9 @@ title: Hugo
     hugo new site <SITENAME>
     hugo new theme <THEMENAME>
     hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>
+
+
+## 使用
+
+1.  `.IsNode` 所有的 list 都是 Node
+2.  `.IsPage` 所有由文件生成的页面都是 Page
