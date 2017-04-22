@@ -6,7 +6,7 @@
         <span class="author" itemprop="copyrightHolder">{{ .Site.Author.name }}</span>
         <div class="powered-by">
             {{ "Powered by [Hugo](https://gohugo.io)" | markdownify }}.
-            {{ if .IsPage }}
+            {{ if .GitInfo }}
             Last revision: {{ .GitInfo.AuthorDate.Format "2006-01-02T15:04:05" }}
             {{ end }}
         </div>
