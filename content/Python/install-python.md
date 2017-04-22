@@ -1,5 +1,5 @@
 ---
-title: Python的安装与使用
+title: Python 的安装与使用
 ---
 
 ## 安装 anaconda

@@ -1,5 +1,5 @@
 ---
-title: markdown格式
+title: markdown 格式
 ---
 
 本文用于测试 hugo 能否正确渲染 markdown 文本。
