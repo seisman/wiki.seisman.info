@@ -6,13 +6,13 @@ theme = "hugo-theme-wiki"
 hasCJKLanguage = true
 pygmentsCodeFences = true
 pygmentsStyle = 'tango'
+enableGitInfo = true
 
 [author]
     name = "seisman"
 
 [params]
     since = 2017
-    copyright = "Powered by [Hugo](https://gohugo.io)."
 
 [[menu.main]]
     name = "GitHub"

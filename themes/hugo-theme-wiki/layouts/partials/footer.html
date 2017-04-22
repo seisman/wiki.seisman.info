@@ -4,7 +4,12 @@
         <span itemprop="copyrightYear"> {{ now.Year }}</span>
         <span class="with-love"><i class="fa fa-heart"></i></span>
         <span class="author" itemprop="copyrightHolder">{{ .Site.Author.name }}</span>
-        <div class="powered-by">{{ .Site.Params.copyright | markdownify }}</div>
+        <div class="powered-by">
+            {{ "Powered by [Hugo](https://gohugo.io)" | markdownify }}.
+            {{ if .IsPage }}
+            Last revision: {{ .GitInfo.AuthorDate.Format "2006-01-02T15:04:05" }}
+            {{ end }}
+        </div>
     </div>
 </footer>
 {{ partial "footer_js" . }}
