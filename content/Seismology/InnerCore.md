@@ -87,5 +87,12 @@ date: 2017-04-22
 1. 内核单向增长：一个半球熔化，另一个半球凝固
 2. 外核的热化学对流导致内核边界处不同的凝固条件
 
-
 ## PKJKP
+
+## 矿物物理
+
+铁相图:
+
+1.  室温室压： bcc (body-centered cubic)
+2.  升温：fcc (face-centered cubic)
+3.  升压：hcp (hexagonal close-packed)

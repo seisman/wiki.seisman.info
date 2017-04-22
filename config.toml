@@ -1,5 +1,5 @@
 baseURL = "http://wiki.seisman.info/"
-languageCode = "zh-cn"
+languageCode = "zh-cmn-Hans"
 title = "SeisMan's Wiki"
 
 theme = "hugo-theme-wiki"
