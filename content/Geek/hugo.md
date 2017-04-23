@@ -34,7 +34,7 @@ title: Hugo
     hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>
 
 
-## 使用
+## 自己写模板
 
 1.  `.IsNode` 所有的 list 都是 Node
 2.  `.IsPage` 所有由文件生成的页面都是 Page
