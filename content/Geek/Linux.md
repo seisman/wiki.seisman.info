@@ -20,6 +20,10 @@ title: Linux 笔记
 
     enca -L zh_CN -x UTF-8 infile
 
+将文件内容复制到剪贴板:
+
+    xclip -sel clip < xxx.txt
+
 ## Linux 学习资源
 
 1. [Linux 工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
