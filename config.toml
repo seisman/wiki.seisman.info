@@ -6,7 +6,11 @@ theme = "hugo-theme-wiki"
 hasCJKLanguage = true
 pygmentsCodeFences = true
 pygmentsStyle = 'tango'
+
+disableRSS = true
+disableSitemap = true
 enableGitInfo = true
+pluralizeListTitles = false
 
 [author]
     name = "seisman"
