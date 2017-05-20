@@ -38,9 +38,14 @@ atom 是 GitHub 官方推出的编辑器，具有开向即用、可扩展性强�
 `sync-settings` | 用于同步/备份 atom 配置文件
 `seti-icons` | 好看的文件图标
 `pdf-view` | 在 atom 中预览 PDF
-`atom-beautify`i | 代码格式化工具
+`atom-beautify` | 代码格式化工具
+`minimap` | 窗口右侧显示minimap
 
 ### markdown
 
 1. 禁用 atom 内置插件 `markdown-preview`
 2. 安装 [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
+
+### Python
+
+1. `autocomplete-python`: Python 语法补全插件
