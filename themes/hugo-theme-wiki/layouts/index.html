@@ -1,12 +1,16 @@
 {{ define "main" }}
 {{.Content}}
 
-{{ range $section, $taxonomy := .Site.Sections }}
-<h4>{{ replace $section "-" " " }}</h4>
-<ul>
-    {{ range $taxonomy.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-</ul>
-{{ end }}
+<div class="row">
+  {{ range $section, $taxonomy := .Site.Sections }}
+  <div class="col-md-3">
+    <h4>{{ replace $section "-" " " }}</h4>
+    <ul>
+      {{ range $taxonomy.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
 {{ end }}
