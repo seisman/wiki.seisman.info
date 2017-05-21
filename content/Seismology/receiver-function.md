@@ -103,7 +103,7 @@ $$ T = p X + \int \eta dz $$
 
 进一步得到：
 
-$$ T = p X + \int_h^{hmax} \eta dz + \int_{hmax}^{H} \eta dz + \int_{H}^0 \eta dz $$
+<div>$$ T = p X + \int_h^{hmax} \eta dz + \int_{hmax}^{H} \eta dz + \int_{H}^0 \eta dz $$</div>
 
 其中 h 是震源深度，hmax 是射线最深穿透深度，H 是 Moho 深度。
 
