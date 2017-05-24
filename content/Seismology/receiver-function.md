@@ -21,12 +21,12 @@ P 波的介质响应。
 
 ### 原理
 
-$ U_R(t) = S(t)*E_R(t)*I(t)$
-$ U_Z(t) = S(t)*E_Z(t)*I(t)$
+$$ U_R(t) = S(t)*E_R(t)*I(t)$$
+$$ U_Z(t) = S(t)*E_Z(t)*I(t)$$
 
 假设 $E_Z(T) \approx \delta(t)$，则可得到：
 
-$U_Z(t) \approx S(t) * I(t)$
+$$U_Z(t) \approx S(t) * I(t)$$
 
 由于时间域的卷积等于频率域相乘，因而得到
 
