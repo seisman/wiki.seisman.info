@@ -8,7 +8,7 @@ description = "Hugo theme for personal wiki"
 homepage = "http://github.com/seisman/wiki"
 tags = ["wiki"]
 features = []
-min_version = "0.20"
+min_version = "0.22"
 
 [author]
   name = "Dongdong Tian"

@@ -7,8 +7,7 @@ hasCJKLanguage = true
 pygmentsCodeFences = true
 pygmentsStyle = 'tango'
 
-disableRSS = true
-disableSitemap = true
+disableKinds = ["RSS", "sitemap"]
 enableGitInfo = true
 pluralizeListTitles = false
 
