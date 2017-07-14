@@ -10,18 +10,9 @@ title: Git 笔记
 
 Git 配置文件为 `~/.gitconfig`。
 
-### 首次配置
-
-首次使用需要进行配置：
-
 ```
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
-```
-
-### 其他配置
-
-```
 git config --global core.editor vim
 git config --global merge.tool meld
 ```
@@ -95,8 +86,14 @@ Clone已有仓库:
     git push origin 1.2.3
     git push --tags
 
-## git 高阶
+将标签old重命名为new:
 
+    git tag new old  # 在old基础上构建标签new
+    git tag -d old   # 删除本地old标签
+    git push origin :refs/tags/old  # 删除远程old标签
+    git push --tags  # 推送新标签到远程
+
+## git 高阶
 
 1.  远程已删除分支，但在本地依然存在，欲清理之:
 
