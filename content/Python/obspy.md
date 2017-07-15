@@ -2,6 +2,14 @@
 title: obspy
 ---
 
+## 安装obspy
+
+    $ conda config --add channels conda-forge
+    $ conda create --name py3
+    $ source activate py3
+    $ conda install obspy
+    $ conda update obspy
+
 仅读取一部分SAC文件，实现类似 SAC 中 cut 命令的功能：
 
 ```python
