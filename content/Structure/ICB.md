@@ -1,5 +1,6 @@
 ---
 title: ICB
+weight: 5
 ---
 
 ## ICB凝固过程

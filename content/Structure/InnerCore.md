@@ -1,5 +1,6 @@
 ---
 title: 地球内核结构
+weight: 6
 date: 2017-04-22
 ---
 
@@ -47,7 +48,7 @@ date: 2017-04-22
 120-130° | 0-15 km    | 10-30 s  | 无      |
 130-143° | 10-90 km   | 30-100 s | PKiKP   | 与 PKIKP 极性相反
 146.5-156.5° | 150-350 km | 100-150 s | PKPbc | 与 PKIKP 波形相同
-155-180° | 350-1221 km  | 150-220 s  | PKPab/None | 是 PKIKP 的 Hilbert 变换  
+155-180° | 350-1221 km  | 150-220 s  | PKPab/None | 是 PKIKP 的 Hilbert 变换
 
 ![PKIKP 射线路径](/Seismology/images/PKIKP-raypath.png)
 
