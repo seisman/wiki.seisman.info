@@ -24,6 +24,10 @@ title: Linux 笔记
 
     xclip -sel clip < xxx.txt
 
+开机自动启动 ssh 服务:
+
+    chkconfig sshd on
+
 ## Linux 学习资源
 
 1. [Linux 工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
