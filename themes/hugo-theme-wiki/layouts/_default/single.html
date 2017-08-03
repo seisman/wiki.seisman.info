@@ -1,8 +1,11 @@
 {{ define "main" }}
-<div class="toc well col-md-4 col-sm-6">
-{{ .TableOfContents }}
-</div>
 <h1>{{ .Title }}</h1>
-{{ .Content }}
-
+<div class="row">
+  <div class="toc well col-md-3 col-sm-4">
+  {{ .TableOfContents }}
+  </div>
+  <div class="col-md-9">
+  {{ .Content }}
+  </div>
+</div>
 {{ end }}
