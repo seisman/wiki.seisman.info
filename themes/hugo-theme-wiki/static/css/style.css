@@ -2,8 +2,16 @@ img {
     max-width: 100%;
 }
 
-.toc{
-  float: right;
+#toc{
+    float: right;
+}
+
+#toc ul {
+    list-style-type: none;
+}
+
+#toc ul ul {
+    list-style-type: disc;
 }
 
 .footer {
