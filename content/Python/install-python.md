@@ -21,6 +21,8 @@ weight: 1
     $ conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
     $ conda config --set show_channel_urls yes
 
+这两个命令会修改文件 `~/.condarc` 。
+
 ### 添加 pip 镜像
 
 编辑 `~/.pip/pip.conf` 文件（如果没有则创建之），将 `index-url` 开头的一行修改为下面一行：
@@ -35,4 +37,3 @@ conda update conda
 conda update anaconda
 conda update --all
 ```
-
