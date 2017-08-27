@@ -1,4 +1,2 @@
 ---
 ---
-
-**Welcome to my wiki!**
