@@ -2,15 +2,32 @@
 {{.Content}}
 
 <div class="row">
-  {{ range $.Site.Home.Sections }}
-  <div class="col-md-2">
-  <h4>{{ .Title }}</h4>
-  <ul>
-    {{ range sort .Pages }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-  </ul>
+  <div class="col-md-12">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      {{ range $.Site.Home.Sections }}
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ .Section }}" aria-expanded="true" aria-controls="{{ .Section }}">
+              {{ .Title }}
+
+            </a>
+          </h4>
+        </div>
+        <div id="{{ .Section }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <ul>
+              {{ range sort .Pages }}
+                <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
   </div>
-{{ end }}
 </div>
+
+
 {{ end }}
