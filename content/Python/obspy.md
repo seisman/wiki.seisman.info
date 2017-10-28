@@ -5,8 +5,6 @@ title: obspy
 ## 安装obspy
 
     $ conda config --add channels conda-forge
-    $ conda create --name py3
-    $ source activate py3
     $ conda install obspy
     $ conda update obspy
 
