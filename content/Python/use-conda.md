@@ -12,6 +12,10 @@ title: conda 用法
 
     conda update anaconda
 
+列出所有已安装的模块:
+
+    conda list
+
 更新所有已安装模块:
 
     conda update --all
