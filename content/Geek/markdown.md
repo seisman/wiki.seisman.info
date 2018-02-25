@@ -17,3 +17,4 @@ $$ x^2+y^2=z^2 $$
 $$ x_1^2 + x_2^2 = x_3^2 $$
 
 <div>$$ \rho \ddot u_i = \tau_{ij,j} + f_i $$</div>
+

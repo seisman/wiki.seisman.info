@@ -5,10 +5,10 @@ weight: 1
 
 ## 安装 anaconda
 
-1.  下载: https://mirrors.ustc.edu.cn/anaconda/archive/Anaconda3-4.4.0-Linux-x86_64.sh
+1.  下载: https://mirrors.ustc.edu.cn/anaconda/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 2.  安装:
 
-        $ bash ./Anaconda3-4.4.0-Linux-x86_64.sh
+        $ bash ./Anaconda3-5.0.1-Linux-x86_64.sh
 
 3.  重启终端
 
