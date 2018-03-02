@@ -28,6 +28,10 @@ title: Linux 笔记
 
     chkconfig sshd on
 
+查看一个二进制文件在执行时加载了哪些动态库:
+
+    ldd /bin/ls
+
 ## Linux 学习资源
 
 1. [Linux 工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/)
