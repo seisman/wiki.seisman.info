@@ -106,3 +106,9 @@ Clone已有仓库:
 
         # update your submodule
         git submodule update --remote
+
+3.  误删除本地分支，如何恢复
+
+        git reflog  # 找到git操作历史中已删除分支对应的commit
+        git checkout [sha]  # checkout
+        git checkout -b [branchname]   # 新建分支
