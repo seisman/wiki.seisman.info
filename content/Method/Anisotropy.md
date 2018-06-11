@@ -43,11 +43,11 @@ title: 各向异性
 
 ### 切向能量最小法
 
-[Silver & Chan, 1991, JGR](http://dx.doi.org/10.1029/91jb00899)
+[Silver & Chan, 1991, JGR](https://doi.org/10.1029/91jb00899)
 
 ### Splitting Intensity
 
-[Chevrot, 2000, JGR](http://dx.doi.org/10.1029/2000JB900199)
+[Chevrot, 2000, JGR](https://doi.org/10.1029/2000JB900199)
 
 ### 互相关法
 

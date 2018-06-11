@@ -166,7 +166,7 @@ $$ t_{Ps-P} = H * (\sqrt{\frac{1}{V_s^2}-p^2} - \sqrt{\frac{1}{V_p^2}-p^2}) $$
 
 ### h-k 法
 
-[Zhu & Kanamori, 2000, JGR](http://dx.doi.org/10.1029/1999JB900322)
+[Zhu & Kanamori, 2000, JGR](https://doi.org/10.1029/1999JB900322)
 
 如果只使用 Ps-P 走时差，由于 Moho深度与 Vp/Vs 存在 trade-off，所以无法约束介质结构。
 
@@ -231,7 +231,7 @@ S波接收函数的原理与P接收函数的原理类似，其优点在于Moho�
 
 ## 参考文献
 
-1. [Zhu & Kanamori, 2000, JGR](http://dx.doi.org/10.1029/1999JB900322)
+1. [Zhu & Kanamori, 2000, JGR](https://doi.org/10.1029/1999JB900322)
 2. [Ligorría & Ammon, 1999, BSSA](http://www.bssaonline.org/content/89/5/1395.short)
-3. [Zhu, 2000, EPSL](http://dx.doi.org/10.1016/S0012-821X(00)00101-1)
-4. [Yuan et. al., 2006, GJI](http://dx.doi.org/10.1111/j.1365-246X.2006.02885.x)
+3. [Zhu, 2000, EPSL](https://doi.org/10.1016/S0012-821X(00)00101-1)
+4. [Yuan et. al., 2006, GJI](https://doi.org/10.1111/j.1365-246X.2006.02885.x)

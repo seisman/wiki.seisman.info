@@ -17,7 +17,7 @@ title: 网络相关
 # source: https://gist.github.com/jrsmith3/5513926
 
 import requests
-url = "http://dx.doi.org/10.1038/nature07109"
+url = "https://doi.org/10.1038/nature07109"
 
 headers = {"accept": "application/x-bibtex"}
 r = requests.get(url, headers=headers)
