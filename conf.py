@@ -15,13 +15,14 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from datetime import datetime
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'SeisMan\'s Wiki'
-copyright = '2019, Dongdong Tian'
+project = "SeisMan's Wiki"
 author = 'Dongdong Tian'
+copyright = '2017-{}, {}.'.format(datetime.now().year, author)
 
 # The short X.Y version
 version = ''
@@ -77,7 +78,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -99,13 +100,7 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
-
-# -- Options for HTMLHelp output ---------------------------------------------
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = 'SeisMansWikidoc'
-
+html_last_updated_fmt = '%b %d, %Y'
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -134,47 +129,6 @@ latex_documents = [
     (master_doc, 'SeisMansWiki.tex', 'SeisMan\'s Wiki Documentation',
      'Dongdong Tian', 'manual'),
 ]
-
-
-# -- Options for manual page output ------------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'seismanswiki', 'SeisMan\'s Wiki Documentation',
-     [author], 1)
-]
-
-
-# -- Options for Texinfo output ----------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'SeisMansWiki', 'SeisMan\'s Wiki Documentation',
-     author, 'SeisMansWiki', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-
-# -- Options for Epub output -------------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
-
-# A list of files that should not be packed into the epub file.
-epub_exclude_files = ['search.html']
-
 
 # -- Extension configuration -------------------------------------------------
 

@@ -1,0 +1,22 @@
+language: python
+python: 3.6
+
+env:
+    global:
+        - HTML=dirhtml
+
+install:
+  # python
+  - pip install -r requirements.txt
+
+script:
+  - make ${HTML}
+
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: ${GH_TOKEN}
+  local_dir: _build/${HTML}
+  on:
+    branch: master

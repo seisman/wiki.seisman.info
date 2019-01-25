@@ -6,6 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SOURCEDIR     = .
 BUILDDIR      = _build
+HTML 		  = dirhtml
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -17,3 +18,11 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+serve: $(HTML)
+	cd $(BUILDDIR)/$(HTML) && python -m http.server
+
+# Watch a Sphinx directory and rebuild the documentation when a change is detected.
+# See https://github.com/GaretJax/sphinx-autobuild for details
+watch:
+	sphinx-autobuild --open-browser --delay 1 -b ${HTML} $(SOURCEDIR) $(BUILDDIR)/${HTML}
