@@ -1,5 +1,10 @@
 language: python
-python: 3.6
+python: 3.7
+
+git:
+  depth: 3
+
+cache: pip
 
 env:
     global:
@@ -11,7 +16,6 @@ install:
 
 script:
   - make ${HTML}
-
 
 deploy:
   provider: pages
