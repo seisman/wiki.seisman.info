@@ -5,3 +5,4 @@ Python
 
     conda
     packages
+    sphinx

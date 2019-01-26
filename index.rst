@@ -5,3 +5,4 @@ SeisMan's Wiki
    :maxdepth: 2
 
    python/index
+   geek/index

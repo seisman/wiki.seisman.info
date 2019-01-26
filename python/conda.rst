@@ -1,6 +1,13 @@
 Using conda
 ===========
 
+Config
+------
+
+Add `conda-forge` channel::
+
+    conda config --add channels conda-forge
+
 Update
 ------
 
