@@ -1,0 +1,6 @@
+Minerology
+==========
+
+.. toctree::
+
+   glossary

@@ -6,3 +6,4 @@ SeisMan's Wiki
 
    python/index
    geek/index
+   mineralogy/index
