@@ -4,3 +4,4 @@ Geek
 .. toctree::
 
    git
+   vscode
