@@ -1,0 +1,5 @@
+Minerals
+========
+
+#. ringwoodite
+#. majorite

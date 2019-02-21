@@ -3,4 +3,5 @@ Minerology
 
 .. toctree::
 
-   glossary
+   minerals
+   rocks
