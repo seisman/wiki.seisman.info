@@ -7,3 +7,5 @@ SeisMan's Wiki
    python/index
    geek/index
    mineralogy/index
+   seismology/index
+   software/index

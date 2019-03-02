@@ -19,6 +19,8 @@ Support More Languages
     C/C++ Support
 -   `C++ Intellisense <https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global>`_:
     C/C++ Intellisense
+-   `CMake <https://marketplace.visualstudio.com/items?itemName=twxs.cmake>`_:
+    CMake support
 
 Better Display
 ~~~~~~~~~~~~~~
