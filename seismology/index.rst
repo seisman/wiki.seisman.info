@@ -4,5 +4,4 @@ Seismology
 .. toctree::
 
    overview
-
-
+   misc

@@ -47,3 +47,7 @@ Management
     Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings,
     Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
 
+Others
+~~~~~~
+
+-   `vscode-pdf <https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf>`_: Display PDF in VSCode
