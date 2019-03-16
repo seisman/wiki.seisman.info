@@ -27,6 +27,11 @@ History of Seismology
 -   1940: Harold Jeffreys and K. E. Bullen published the final version of
     their travel time tables for a large number of seismic phases, which is
     called JB table.
+-   1946: an underwater nuclear explosion near Bikini Atoll led to the first
+    detailed seismic recordings of a nuclear bomb.
+-   1949: a Soviet nuclear bomb.
+-   1961: the Worldwide Standardized Seismograph Network (WWSSN) was established
+
 
 Earth's structure
 -----------------

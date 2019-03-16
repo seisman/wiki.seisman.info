@@ -30,6 +30,12 @@ Pyrolite (地幔岩)
 A theoretical rock considered to be the best approximation of the composition of Earth's upper mantle.
 It is constructed from basalts and peridotites.
 
+Others
+------
+
+#. meteorite: 陨石
+#. chondrite: 球粒陨石
+
 Referecens
 ----------
 
