@@ -5,3 +5,4 @@ Geek
 
    git
    vscode
+   cmd
