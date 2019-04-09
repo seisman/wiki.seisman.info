@@ -3,6 +3,7 @@ Seismology
 
 .. toctree::
 
-   books
-   overview
-   misc
+    books
+    overview
+    wave-equation
+    misc

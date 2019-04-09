@@ -4,8 +4,7 @@ Install Python packages
 Install
 -------
 
-Using conda (see the `packages list <https://anaconda.org/anaconda/repo>`_
-provided by Anaconda::
+Using conda provided by Anaconda::
 
     conda install numpy
 

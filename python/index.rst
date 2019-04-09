@@ -7,3 +7,4 @@ Python
     conda
     packages
     sphinx
+    tutorial
