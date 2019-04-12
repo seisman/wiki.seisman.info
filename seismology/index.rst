@@ -6,4 +6,5 @@ Seismology
     books
     overview
     wave-equation
+    stacking
     misc
