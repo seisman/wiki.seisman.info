@@ -6,5 +6,3 @@ Minerology
    books
    minerals
    rocks
-   misc
-   glossary

@@ -17,6 +17,8 @@ Igneous
 
 #. peridotite (橄榄岩)
 #. harzburgite (斜方辉橄岩)
+#. gabbros (辉长岩)
+#. eclogite (榴辉岩)
 
 Sedimentary
 -----------
