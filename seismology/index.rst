@@ -3,8 +3,9 @@ Seismology
 
 .. toctree::
 
-    books
     overview
     wave-equation
+    focal-mechanism
     stacking
     misc
+    books
