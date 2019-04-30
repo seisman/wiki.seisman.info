@@ -3,10 +3,8 @@ SeisMan's Wiki
 
 Welcome to `SeisMan <https://seisman.info/>`_'s personal wiki!
 
-Geoscience
-==========
-
 .. toctree::
+   :caption: Geoscience
    :maxdepth: 1
 
    earth/index
@@ -15,19 +13,15 @@ Geoscience
    geodynamics/index
    thermodynamics/index
 
-Programming
-===========
-
 .. toctree::
+   :caption: Programming
    :maxdepth: 1
 
    python/index
    geek/index
 
-Miscellaneous
-=============
-
 .. toctree::
+   :caption: Miscellaneous
    :maxdepth: 1
 
    software/index
