@@ -4,6 +4,12 @@ Focal Mechanism
 Definition of fault, nodal plane or double couple
 -------------------------------------------------
 
+A double couple source can be describey by three parameters:
+
+#. strike
+#. dip
+#. rake
+
 .. figure:: images/fault.png
     :width: 50%
 
