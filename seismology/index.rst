@@ -5,7 +5,7 @@ Seismology
 
     overview
     wave-equation
-    focal-mechanism
+    source/index
     stacking
     misc
     books

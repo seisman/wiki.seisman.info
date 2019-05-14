@@ -10,7 +10,7 @@ A double couple source can be describey by three parameters:
 #. dip
 #. rake
 
-.. figure:: images/fault.png
+.. figure:: /seismology/images/fault.png
     :width: 50%
 
     Definition of fault geometry. Figure from P114 of AKi & Richards (1980).
