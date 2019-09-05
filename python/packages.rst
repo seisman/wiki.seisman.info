@@ -1,6 +1,11 @@
 Packages
 ========
 
+Tools
+-----
+
+- `JupyterLab <https://jupyterlab.readthedocs.io>`_
+
 Plotting
 --------
 
