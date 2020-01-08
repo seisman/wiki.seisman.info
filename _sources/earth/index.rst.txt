@@ -1,0 +1,6 @@
+Earth Science
+=============
+
+.. toctree::
+
+    composition
