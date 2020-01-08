@@ -3,4 +3,5 @@ Software
 
 .. toctree::
 
-   powerpoint.rst
+   powerpoint
+   endnote
